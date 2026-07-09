@@ -1,9 +1,9 @@
-const CACHE_NAME = 'box-dist-v2';
+const CACHE_NAME = 'box-dist-v3';
 const ASSETS = [
   './index.html',
   './manifest.json',
-  './icon-192.png',
-  './icon-512.png'
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
